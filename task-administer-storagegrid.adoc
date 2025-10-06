@@ -1,0 +1,124 @@
+---
+sidebar: sidebar 
+permalink: task-administer-storagegrid.html 
+keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
+summary: Administre un sistema StorageGRID desde la consola de NetApp utilizando la vista avanzada.  Esta vista le permite utilizar Grid Manager desde la consola de NetApp . 
+---
+= Administrar StorageGRID mediante Grid Manager en la consola de NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Administre un sistema StorageGRID desde la consola utilizando la vista avanzada.  Esta vista le permite utilizar Grid Manager desde la consola.
+
+.Rol de consola de NetApp requerido:
+Administrador de almacenamiento o especialista en salud del sistema.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso."^]
+
+
+
+== Configuraciones compatibles
+
+Grid Manager está disponible en la consola a partir de StorageGRID 11.8.
+
+
+
+== Limitaciones
+
+Las siguientes operaciones de Grid Manager no están disponibles desde la consola.  Si necesita realizar estas operaciones, inicie sesión directamente en Grid Manager.
+
+[cols="1a,2a"]
+|===
+| Menú del Administrador de cuadrícula | Operaciones no disponibles desde la consola 
+
+
+ a| 
+Usuario
+ a| 
+* Enlace para cerrar sesión
+* Enlace a la documentación de la API
+* Cambiar la contraseña
+
+
+
+
+ a| 
+Nodos
+ a| 
+* No puede acceder a SANtricity System Manager desde la pestaña Nodos > SANtricity System Manager.
+* Al ver alertas, es posible que no pueda seleccionar todos los enlaces en las acciones recomendadas.  Por ejemplo, los enlaces que van a páginas de Grid Manager no compatibles no funcionarán.
+
+
+
+
+ a| 
+Inquilinos
+ a| 
+No puede iniciar sesión en una cuenta de inquilino desde el asistente Crear un inquilino o desde la página Inquilinos.
+
+Actualmente la consola no es compatible con el administrador de inquilinos.  Si bien puedes crear nuevas cuentas de inquilino desde la consola, los usuarios inquilinos no pueden iniciar sesión en sus cuentas desde la consola.
+
+
+
+ a| 
+ILM
+ a| 
+Enlace de grados de almacenamiento
+
+
+
+ a| 
+Configuración
+ a| 
+* Contraseñas de la red
+* Clasificación del tráfico > Métricas
+* Configuración de seguridad > Tiempo de espera por inactividad del navegador
+* Inicio de sesión único
+* Agente SNMP > Archivo MIB para la interfaz BMC
+
+
+
+
+ a| 
+Mantenimiento
+ a| 
+* Paquete de recuperación
+* Actualización de software
+
+
+
+
+ a| 
+Soporte
+ a| 
+* Topología de cuadrícula
+* Registros
+* Métricas, incluidos todos los enlaces a las métricas de Prometheus y los paneles de Grafana desde otros lugares de la interfaz de usuario.
+* Todas las opciones para alarmas heredadas
+* Costo del enlace
+* Entidades del NMS
+
+
+|===
+
+
+== Cambiar a la vista avanzada
+
+Abra un sistema StorageGRID y seleccione la opción de vista avanzada.
+
+.Pasos
+. Desde la página *Sistemas*, abra el sistema StorageGRID .
+. En la parte superior derecha, seleccione *Cambiar a vista avanzada*.
+. Utilice Grid Manager para administrar el sistema StorageGRID .
+. Si es necesario, seleccione Cambiar a vista estándar para volver a la vista estándar a través de la Consola.
+
+
+
+
+== Obtenga ayuda con Grid Manager
+
+Si necesita ayuda para utilizar Grid Manager, consulte https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["Documentación de StorageGRID"^] para obtener instrucciones paso a paso.

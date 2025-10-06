@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: task-enable-data-services.html 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid, tiering 
+summary: Después de descubrir un sistema StorageGRID en la consola de NetApp , puede usar los servicios de datos de NetApp para realizar copias de seguridad, organizar los datos en niveles y sincronizarlos. 
+---
+= Utilice los servicios de datos de NetApp con StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Después de descubrir un sistema StorageGRID en la consola de NetApp , puede usar los servicios de datos de NetApp para realizar copias de seguridad, organizar los datos en niveles y sincronizarlos.
+
+* Utilice NetApp Backup and Recovery para realizar copias de seguridad de los datos de sus sistemas ONTAP locales en el almacenamiento de objetos en sus sistemas NetApp StorageGRID .
++
+Para comenzar, vaya a la página *Sistemas* y arrastre y suelte un sistema ONTAP local en su sistema StorageGRID .
+
++
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["Obtenga más información sobre cómo realizar copias de seguridad de datos locales de ONTAP en StorageGRID"^]
+
+* Utilice NetApp Cloud Tiering para organizar automáticamente en niveles los datos inactivos desde los clústeres ONTAP locales a StorageGRID.
++
+Para comenzar, vaya a la página *Sistemas* y arrastre y suelte un sistema ONTAP local en su sistema StorageGRID .
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-storagegrid.html["Obtenga más información sobre la organización en niveles de datos desde clústeres ONTAP locales a StorageGRID"^]
+
+* Utilice NetApp Copy and Sync para sincronizar datos hacia o desde un sistema StorageGRID .
++
+Para comenzar, vaya a la página *Sistemas* y arrastre y suelte el sistema de origen en el sistema de destino.  StorageGRID puede ser el origen o el destino.
+
++
+https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["Obtenga más información sobre NetApp Copy and Sync"^]
+
+

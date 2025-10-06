@@ -1,0 +1,69 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, storagegrid' 
+summary: Descubra las novedades en la administración de sistemas StorageGRID en NetApp Console. 
+---
+= Novedades en la gestión de StorageGRID
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Conozca las novedades en la administración de sistemas StorageGRID en la consola de NetApp .
+
+
+
+== 6 de octubre de 2025
+
+
+
+=== BlueXP ahora es NetApp Console
+
+La consola NetApp , construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento NetApp y de los servicios de datos NetApp en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.
+
+Para obtener más detalles sobre lo que ha cambiado, consulte lalink:https://docs.netapp.com/us-en/console-relnotes/index.html["Notas de la versión de la consola de NetApp"] .
+
+
+
+== 12 de mayo de 2025
+
+
+
+=== Se necesitan roles de acceso a BlueXP
+
+Ahora necesita uno de los siguientes roles de acceso para ver, descubrir o administrar StorageGRID en BlueXP: *Administrador de la organización*, *Administrador de carpeta o proyecto*, *Administrador de almacenamiento* o *Especialista en estado de almacenamiento*.link:https://docs.netapp.com/us-en/bluexp/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso de BlueXP ."^]
+
+
+
+== 7 de agosto de 2024
+
+
+
+=== Nueva vista avanzada
+
+A partir de StorageGRID 11.8, puede utilizar la interfaz familiar de Grid Manager para administrar su sistema StorageGRID desde BlueXP.
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html["Aprenda a administrar StorageGRID mediante la vista avanzada"] .
+
+
+
+=== Capacidad de revisar y aprobar el certificado de interfaz de administración de StorageGRID
+
+Ahora tiene la posibilidad de revisar y aprobar un certificado de interfaz de administración de StorageGRID al descubrir el sistema StorageGRID desde BlueXP.  También puede revisar y aprobar el último certificado de interfaz de administración de StorageGRID en una red detectada.
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html["Aprenda a revisar y aprobar el certificado del servidor durante el descubrimiento del sistema."]
+
+
+
+== 18 de septiembre de 2022
+
+
+
+=== Compatibilidad con StorageGRID
+
+Ahora puede descubrir sus sistemas StorageGRID directamente desde BlueXP.  Descubrir StorageGRID le proporciona una vista completa de los datos en su multinube híbrida.

@@ -1,0 +1,64 @@
+---
+sidebar: sidebar 
+permalink: task-discover-storagegrid.html 
+keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
+summary: Descubra los sistemas StorageGRID en su entorno local y luego adminístrelos directamente desde la consola de NetApp usando Grid Manager. 
+---
+= Agregar sistemas StorageGRID a la consola de NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Administre sus sistemas StorageGrid directamente desde la consola de NetApp utilizando Grid Manager.
+
+.Rol de consola de NetApp requerido:
+Administrador de almacenamiento o especialista en salud del sistema.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Obtenga información sobre los roles de acceso a la consola de NetApp ."^]
+
+.Antes de empezar
+Necesitarás lo siguiente:
+
+* Un agente de consola de NetApp que utiliza la versión 3.9.43 o posterior.  Debe tener el rol de administrador de la organización para instalar un agente de consola.  Si no sabe si su organización tiene un agente de consola o si necesita crear uno, comuníquese con su administrador de consola de NetApp . https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["Comuníquese con el administrador de su organización."^]
+* El nombre de dominio o la dirección IP del nodo de administración.
+* Credenciales de administrador para el nodo de administración.
+* Un certificado de interfaz de administración instalado en su sistema StorageGRID .
++
+https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Obtenga más información sobre cómo instalar un certificado de interfaz de administración en StorageGRID"^]
+
+
+
+.Pasos
+. Desde el menú de navegación, seleccione *Almacenamiento > Administración*.
+. Seleccione *Sistemas*.
+. Seleccione *Agregar sistema* y seleccione *En las instalaciones*.
+. Junto a * StorageGRID*, seleccione *Descubrir*.
+. En la página _Detalles del clúster StorageGRID_ de la consola, ingrese el nombre de dominio o la dirección IP del nodo de administración, las credenciales del nodo y luego seleccione *Agregar*.
+. La consola recupera automáticamente el certificado de interfaz de administración de StorageGRID .  En la página _Aprobar certificado_, revise los detalles del certificado.
+. Para utilizar un certificado diferente, primero configúrelo en su sistema StorageGRID .
++
+.. En su sistema StorageGRID local, siga las instrucciones: https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["Instalación de un certificado de interfaz de administración en StorageGRID"^] .
+.. Después de configurar el certificado en el sistema StorageGRID , seleccione *Cancelar* en la página _Aprobar certificado_ en la Consola.
+.. En la página _Detalles del clúster StorageGRID_, seleccione *Agregar*.
+
+
+. Opcionalmente, seleccione *Copiar certificado* para copiar los detalles del certificado.  Puede utilizar los detalles del certificado para realizar una validación adicional si lo desea.
+. Debe realizar una de las siguientes acciones:
++
+.. Seleccione *Aprobar certificado* para utilizar el certificado.
++
+La consola de NetApp muestra un mensaje de éxito y protege toda la comunicación entre el servidor StorageGRID y el agente de la consola verificando el certificado aprobado.
+
+.. Seleccione *Cancelar* para finalizar el proceso de descubrimiento sin verificar el certificado.
++
+Por ejemplo, puede seleccionar *Cancelar* si recibe un mensaje de error que le notifica que es necesario actualizar el certificado de administración de StorageGRID .
+
++
+Para actualizar un certificado, vaya a su sistema StorageGRID , actualice el certificado y luego reinicie el proceso de detección desde la consola de NetApp .
+
+
+
+

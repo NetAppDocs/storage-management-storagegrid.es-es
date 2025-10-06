@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: reference-known-issues.html 
+keywords: issues, known issues, bugs, errors, storagegrid, storage grid, storagegrid known issues, netapp console known issues 
+summary: Los problemas conocidos identifican problemas que podrían impedirle utilizar esta versión del producto con éxito. 
+---
+= Problemas conocidos para administrar StorageGRID en la consola de NetApp
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Los problemas conocidos identifican problemas que podrían impedirle utilizar esta versión del producto con éxito.
+
+
+
+== Los nombres para mostrar actualizados no aparecen en la consola de NetApp
+
+Si utiliza el procedimiento de cambio de nombre para definir un nuevo nombre para mostrar para un sitio o una red, el nuevo nombre para mostrar no se refleja en la consola de NetApp .  Dentro de la consola de NetApp , el sistema continúa mostrando el nombre del sistema y no el nuevo nombre para mostrar.
+
+
+
+== Error al filtrar alertas
+
+Al utilizar la vista avanzada, al filtrar el contenido de la página Alertas se produce un error.
+
+
+
+== Error al editar la conexión de la federación de red
+
+Al utilizar la vista avanzada, es posible que se produzca un error de tiempo de espera de puerta de enlace al editar una conexión de federación de red.
