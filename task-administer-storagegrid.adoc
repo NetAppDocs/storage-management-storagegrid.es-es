@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-administer-storagegrid.html 
 keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
-summary: Administre un sistema StorageGRID desde la consola de NetApp utilizando la vista avanzada.  Esta vista le permite utilizar Grid Manager desde la consola de NetApp . 
+summary: Administre un sistema StorageGRID desde la NetApp Console utilizando la vista avanzada.  Esta vista le permite utilizar Grid Manager desde la NetApp Console. 
 ---
-= Administrar StorageGRID mediante Grid Manager en la consola de NetApp
+= Administrar StorageGRID mediante Grid Manager en la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -16,7 +16,7 @@ summary: Administre un sistema StorageGRID desde la consola de NetApp utilizando
 [role="lead"]
 Administre un sistema StorageGRID desde la consola utilizando la vista avanzada.  Esta vista le permite utilizar Grid Manager desde la consola.
 
-.Rol de consola de NetApp requerido:
+.Rol de NetApp Console requerido:
 Administrador de almacenamiento o especialista en salud del sistema.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso."^]
 
 
@@ -60,7 +60,7 @@ Inquilinos
  a| 
 No puede iniciar sesión en una cuenta de inquilino desde el asistente Crear un inquilino o desde la página Inquilinos.
 
-Actualmente la consola no es compatible con el administrador de inquilinos.  Si bien puedes crear nuevas cuentas de inquilino desde la consola, los usuarios inquilinos no pueden iniciar sesión en sus cuentas desde la consola.
+Actualmente la consola no es compatible con el administrador de inquilinos.  Si bien puede crear nuevas cuentas de inquilino desde la consola, los usuarios inquilinos no pueden iniciar sesión en sus cuentas desde la consola.
 
 
 

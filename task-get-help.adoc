@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-get-help.html 
 keywords: help, ticket, open support case, support, netapp support, technical support, call support, phone number, open ticket, web ticket, open an issue 
-summary: 'NetApp proporciona soporte para la consola NetApp de distintas maneras.  Hay amplias opciones de autoayuda gratuitas disponibles las 24 horas, los 7 días de la semana, como artículos de la base de conocimientos (KB) y un foro comunitario. Su registro de soporte incluye soporte técnico remoto mediante tickets web.' 
+summary: 'NetApp proporciona soporte para la NetApp Console de distintas maneras. Hay amplias opciones de autoayuda gratuitas disponibles las 24 horas, los 7 días de la semana, como artículos de la base de conocimientos (KB) y un foro comunitario. Su registro de soporte incluye soporte técnico remoto mediante tickets web.' 
 ---
 = Obtener ayuda
 :allow-uri-read: 
@@ -17,7 +17,7 @@ NetApp proporciona soporte para NetApp Console y sus servicios en la nube de div
 
 == Obtenga soporte para un servicio de archivos de un proveedor de nube
 
-Para obtener asistencia técnica relacionada con un servicio de archivos de un proveedor de nube, su infraestructura o cualquier solución que utilice el servicio, consulte la documentación de ese producto.
+Para obtener soporte técnico relacionado con un servicio de archivos de un proveedor de nube, su infraestructura o cualquier solución que utilice el servicio, consulte la documentación de ese producto.
 
 * link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/start/concept-fsx-aws.html#getting-help["Amazon FSx para ONTAP"^]
 * link:https://docs.netapp.com/us-en/storage-management-azure-netapp-files/concept-azure-netapp-files.html#getting-help["Azure NetApp Files"^]
@@ -34,7 +34,7 @@ Estas opciones están disponibles de forma gratuita, las 24 horas del día, los 
 
 * Documentación
 +
-La documentación de la consola de NetApp que estás viendo actualmente.
+La documentación de la NetApp Console que estás viendo actualmente.
 
 * https://kb.netapp.com/Cloud/BlueXP["Base de conocimientos"^]
 +
@@ -42,7 +42,7 @@ Busque en la base de conocimientos de NetApp para encontrar artículos útiles p
 
 * http://community.netapp.com/["Comunidades"^]
 +
-Únase a la comunidad de la consola de NetApp para seguir las discusiones en curso o crear otras nuevas.
+Únase a la comunidad de la NetApp Console para seguir las discusiones en curso o crear otras nuevas.
 
 
 
@@ -58,7 +58,7 @@ Además de las opciones de autosoporte anteriores, puede trabajar con un especia
 
 
 .Pasos
-. En la consola de NetApp , seleccione *Ayuda > Soporte*.
+. En la NetApp Console, seleccione *Ayuda > Soporte*.
 . En la página *Recursos*, elija una de las opciones disponibles en Soporte técnico:
 +
 .. Seleccione *Llámenos* si desea hablar con alguien por teléfono. Serás dirigido a una página en netapp.com que enumera los números de teléfono a los que puedes llamar.
@@ -91,13 +91,13 @@ image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/scr
 .Después de terminar
 Aparecerá una ventana emergente con su número de caso de soporte. Un especialista de soporte de NetApp revisará su caso y se comunicará con usted pronto.
 
-Para obtener un historial de sus casos de soporte, puede seleccionar *Configuración > Cronología* y buscar acciones llamadas "crear caso de soporte". Un botón en el extremo derecho le permite expandir la acción para ver detalles.
+Para obtener un historial de sus casos de soporte, puede seleccionar *Configuración > Cronología* y buscar acciones llamadas "crear caso de soporte". Un botón en el extremo derecho le permite ampliar la acción para ver detalles.
 
 Es posible que encuentres el siguiente mensaje de error al intentar crear un caso:
 
 "No está autorizado a crear un caso contra el servicio seleccionado"
 
-Este error podría significar que la cuenta NSS y la empresa registrada con la que está asociada no son la misma empresa registrada para el número de serie de la cuenta de la consola de NetApp (es decir, 960xxxx) o el número de serie del entorno de trabajo. Puede buscar ayuda utilizando una de las siguientes opciones:
+Este error podría significar que la cuenta NSS y la empresa registrada con la que está asociada no son la misma empresa registrada para el número de serie de la cuenta de la NetApp Console (es decir, 960xxxx) o el número de serie del entorno de trabajo. Puede buscar ayuda utilizando una de las siguientes opciones:
 
 * Envíe un caso no técnico a https://mysupport.netapp.com/site/help[]
 
@@ -127,7 +127,7 @@ Vea los pasos a continuación para obtener más detalles.
 
 
 .Pasos
-. En la consola de NetApp , seleccione *Ayuda > Soporte*.
+. En la NetApp Console, seleccione *Ayuda > Soporte*.
 . Seleccione *Administración de casos* y, si se le solicita, agregue su cuenta NSS a la consola.
 +
 La página *Administración de casos* muestra los casos abiertos relacionados con la cuenta NSS que está asociada con su cuenta de usuario de la consola. Esta es la misma cuenta NSS que aparece en la parte superior de la página de *administración de NSS*.

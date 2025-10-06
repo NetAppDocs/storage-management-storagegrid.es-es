@@ -4,7 +4,7 @@ permalink: reference-known-issues.html
 keywords: issues, known issues, bugs, errors, storagegrid, storage grid, storagegrid known issues, netapp console known issues 
 summary: Los problemas conocidos identifican problemas que podrían impedirle utilizar esta versión del producto con éxito. 
 ---
-= Problemas conocidos para administrar StorageGRID en la consola de NetApp
+= Problemas conocidos para administrar StorageGRID en la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -18,9 +18,9 @@ Los problemas conocidos identifican problemas que podrían impedirle utilizar es
 
 
 
-== Los nombres para mostrar actualizados no aparecen en la consola de NetApp
+== Los nombres para mostrar actualizados no aparecen en la NetApp Console
 
-Si utiliza el procedimiento de cambio de nombre para definir un nuevo nombre para mostrar para un sitio o una red, el nuevo nombre para mostrar no se refleja en la consola de NetApp .  Dentro de la consola de NetApp , el sistema continúa mostrando el nombre del sistema y no el nuevo nombre para mostrar.
+Si utiliza el procedimiento de cambio de nombre para definir un nuevo nombre para mostrar para un sitio o una red, el nuevo nombre para mostrar no se refleja en la NetApp Console.  Dentro de la NetApp Console, el sistema continúa mostrando el nombre del sistema y no el nuevo nombre para mostrar.
 
 
 

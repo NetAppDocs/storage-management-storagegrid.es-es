@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-support-registration.html 
 keywords: support registration, register for support, support, nss account, add nss account, 
-summary: Antes de poder abrir un caso de soporte con el soporte técnico de NetApp , debe agregar una cuenta del sitio de soporte de NetApp a la consola de NetApp y luego registrarse para recibir soporte. 
+summary: Antes de poder abrir un caso de soporte con el soporte técnico de NetApp , debe agregar una cuenta del sitio de soporte de NetApp a la NetApp Console y luego registrarse para recibir soporte. 
 ---
 = Regístrese para recibir asistencia
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Antes de poder abrir un caso de soporte con el soporte técnico de NetA
 
 
 [role="lead"]
-Es necesario registrarse para recibir soporte técnico específico para la consola de NetApp y sus soluciones de almacenamiento y servicios de datos. También es necesario registrarse para obtener soporte técnico para habilitar flujos de trabajo clave para los sistemas Cloud Volumes ONTAP .
+Es necesario registrarse para recibir soporte técnico específico para la NetApp Console y sus soluciones de almacenamiento y servicios de datos. También es necesario registrarse para obtener soporte técnico para habilitar flujos de trabajo clave para los sistemas Cloud Volumes ONTAP .
 
 Registrarse para recibir soporte no habilita el soporte de NetApp para un servicio de archivos de un proveedor de nube. Para obtener asistencia técnica relacionada con un servicio de archivos de un proveedor de nube, su infraestructura o cualquier solución que utilice el servicio, consulte "Obtener ayuda" en la documentación de ese producto.
 
@@ -26,13 +26,13 @@ Registrarse para recibir soporte no habilita el soporte de NetApp para un servic
 
 Existen dos formas de registro para activar el derecho a recibir ayuda:
 
-* Registrar el número de serie de su cuenta de la consola de NetApp (su número de serie 960xxxxxxxxx de 20 dígitos ubicado en la página Recursos de soporte en la consola).
+* Registrar el número de serie de su cuenta de la NetApp Console (su número de serie 960xxxxxxxxx de 20 dígitos ubicado en la página Recursos de soporte en la consola).
 +
 Esto sirve como su ID de suscripción de soporte único para cualquier servicio dentro de la Consola. Cada cuenta de consola debe estar registrada.
 
 * Registrar los números de serie de Cloud Volumes ONTAP asociados con una suscripción en el mercado de su proveedor de nube (son números de serie 909201xxxxxxxx de 20 dígitos).
 +
-Estos números de serie se conocen comúnmente como _números de serie PAYGO_ y son generados por la consola de NetApp en el momento de la implementación de Cloud Volumes ONTAP .
+Estos números de serie se conocen comúnmente como _números de serie PAYGO_ y son generados por la NetApp Console en el momento de la implementación de Cloud Volumes ONTAP .
 
 
 
@@ -40,9 +40,9 @@ El registro de ambos tipos de números de serie permite funciones como la apertu
 
 
 
-== Registrar la consola de NetApp para obtener soporte de NetApp
+== Registrar la NetApp Console para obtener soporte de NetApp
 
-Para registrarse para recibir soporte y activar el derecho a soporte, un usuario de su cuenta de consola de NetApp debe asociar una cuenta del sitio de soporte de NetApp con su inicio de sesión de consola. La forma de registrarse para el soporte de NetApp depende de si ya tiene una cuenta del sitio de soporte de NetApp (NSS).
+Para registrarse para recibir soporte y activar el derecho a soporte, un usuario de su cuenta de NetApp Console debe asociar una cuenta del sitio de soporte de NetApp con su inicio de sesión de consola. La forma de registrarse para el soporte de NetApp depende de si ya tiene una cuenta del sitio de soporte de NetApp (NSS).
 
 
 
@@ -132,7 +132,7 @@ Es necesario proporcionar su cuenta NSS para que la consola pueda cargar su clav
 * Actualización del software Cloud Volumes ONTAP a la última versión
 
 
-La asociación de credenciales NSS con su cuenta de consola de NetApp es diferente a la asociación de una cuenta NSS con un inicio de sesión de usuario de consola.
+La asociación de credenciales NSS con su cuenta de NetApp Console es diferente a la asociación de una cuenta NSS con un inicio de sesión de usuario de consola.
 
 Estas credenciales de NSS están asociadas con su ID de cuenta de consola específica. Los usuarios que pertenecen a la organización de la Consola pueden acceder a estas credenciales desde *Soporte > Administración de NSS*.
 
