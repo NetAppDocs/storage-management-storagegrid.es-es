@@ -17,7 +17,7 @@ summary: Administre un sistema StorageGRID desde la NetApp Console utilizando la
 Administre un sistema StorageGRID desde la consola utilizando la vista avanzada.  Esta vista le permite utilizar Grid Manager desde la consola.
 
 .Rol de NetApp Console requerido:
-Administrador de almacenamiento o especialista en salud del sistema.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso."^]
+Administrador de almacenamiento o especialista en salud del sistema. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["Obtenga más información sobre los roles de acceso"^].
 
 
 
@@ -75,7 +75,6 @@ Enlace de grados de almacenamiento
 Configuración
  a| 
 * Contraseñas de la red
-* Clasificación del tráfico > Métricas
 * Configuración de seguridad > Tiempo de espera por inactividad del navegador
 * Inicio de sesión único
 * Agente SNMP > Archivo MIB para la interfaz BMC
@@ -96,8 +95,8 @@ Mantenimiento
 Soporte
  a| 
 * Topología de cuadrícula
-* Registros
-* Métricas, incluidos todos los enlaces a las métricas de Prometheus y los paneles de Grafana desde otros lugares de la interfaz de usuario.
+* Recopilación de registros
+* Todos los enlaces a las métricas de Prometheus y los paneles de Grafana
 * Todas las opciones para alarmas heredadas
 * Costo del enlace
 * Entidades del NMS
@@ -106,15 +105,15 @@ Soporte
 |===
 
 
-== Cambiar a la vista avanzada
+== Cambiar al Administrador de cuadrícula
 
-Abra un sistema StorageGRID y seleccione la opción de vista avanzada.
+Abra un sistema StorageGRID y seleccione la opción Administrador de Grid.
 
 .Pasos
 . Desde la página *Sistemas*, abra el sistema StorageGRID .
-. En la parte superior derecha, seleccione *Cambiar a vista avanzada*.
+. En la parte superior derecha, seleccione *Cambiar a Administrador de cuadrícula*.
 . Utilice Grid Manager para administrar el sistema StorageGRID .
-. Si es necesario, seleccione Cambiar a vista estándar para volver a la vista estándar a través de la Consola.
+. Si es necesario, seleccione *Atrás* para regresar a la vista estándar a través de la Consola.
 
 
 

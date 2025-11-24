@@ -10,9 +10,6 @@
   <block id="7ef5c031e9bd4c1394a8093c50afe4e2" category="paragraph">Ahora tiene la posibilidad de revisar y aprobar un certificado de interfaz de administración de StorageGRID al descubrir el sistema StorageGRID desde BlueXP.  También puede revisar y aprobar el último certificado de interfaz de administración de StorageGRID en una red detectada.</block>
   <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">Aprenda a revisar y aprobar el certificado del servidor durante el descubrimiento del sistema.</block>
   <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
-  <block id="2bef154766331bbaacbab995f24ef0c2" category="doc">Se necesitan roles de acceso a BlueXP</block>
-  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">Obtenga más información sobre los roles de acceso de BlueXP .</block>
-  <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">Ahora necesita uno de los siguientes roles de acceso para ver, descubrir o administrar StorageGRID en BlueXP: *Administrador de la organización*, *Administrador de carpeta o proyecto*, *Administrador de almacenamiento* o *Especialista en estado de almacenamiento*.<block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
   <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP ahora es NetApp Console</block>
   <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">La NetApp Console, construida sobre la base BlueXP mejorada y reestructurada, proporciona una gestión centralizada del almacenamiento de NetApp y de los NetApp Data Services en entornos locales y en la nube a nivel empresarial, brindando información en tiempo real, flujos de trabajo más rápidos y una administración simplificada, que es altamente segura y compatible.</block>
   <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">Notas de la versión de la NetApp Console</block>
@@ -52,8 +49,6 @@
   <block id="e11189f51e944c56ae93486d4b5db590" category="doc">Administrar StorageGRID mediante Grid Manager en la NetApp Console</block>
   <block id="d5c34e6c10be47a51e62aadafb90e8f8" category="paragraph">Administre un sistema StorageGRID desde la consola utilizando la vista avanzada.  Esta vista le permite utilizar Grid Manager desde la consola.</block>
   <block id="f3d96e033470d8fb9d043aed29754d44" category="paragraph-title">Rol de NetApp Console requerido:</block>
-  <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">Obtenga más información sobre los roles de acceso.</block>
-  <block id="647e72c68ac2b108fc4f872a4408d77a" category="paragraph">Administrador de almacenamiento o especialista en salud del sistema.<block ref="5a4d408bd57f7cf7efbd6cf878c737a7" category="inline-link-macro-rx"></block></block>
   <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">Configuraciones compatibles</block>
   <block id="82f590009d4efe1d732fe71c4acb2ae2" category="paragraph">Grid Manager está disponible en la consola a partir de StorageGRID 11.8.</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">Limitaciones</block>
@@ -74,7 +69,6 @@
   <block id="d1760d83776d2cad4f596e5fbdca7031" category="paragraph">Enlace de grados de almacenamiento</block>
   <block id="254f642527b45bc260048e30704edb39" category="paragraph">Configuración</block>
   <block id="8e8a68d187d0714e364a531fe90c3e48" category="list-text">Contraseñas de la red</block>
-  <block id="4e4b4ed3fd3d46ee1adfbe44d5d59f43" category="list-text">Clasificación del tráfico &gt; Métricas</block>
   <block id="a48031b9725d4cf40505c76b9f1639b6" category="list-text">Configuración de seguridad &gt; Tiempo de espera por inactividad del navegador</block>
   <block id="f349dbd269e091419d25308532e10fa9" category="list-text">Inicio de sesión único</block>
   <block id="ca0fa3abc1c867e840da53c9362947e0" category="list-text">Agente SNMP &gt; Archivo MIB para la interfaz BMC</block>
@@ -83,18 +77,12 @@
   <block id="c329847c5a9eb54120dcc6a37e7688cd" category="list-text">Actualización de software</block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="paragraph">Soporte</block>
   <block id="18e8755b803a7bb837ea9fdd4a198fcf" category="list-text">Topología de cuadrícula</block>
-  <block id="b2d37ae1cedf42ff874289b721860af2" category="list-text">Registros</block>
-  <block id="e3c28fcb661163dc6895b75c04f2efd7" category="list-text">Métricas, incluidos todos los enlaces a las métricas de Prometheus y los paneles de Grafana desde otros lugares de la interfaz de usuario.</block>
   <block id="398728716b4e5021932fed1c2a8ebeb8" category="list-text">Todas las opciones para alarmas heredadas</block>
   <block id="62e734353c5cfd6023d970172d9908a9" category="list-text">Costo del enlace</block>
   <block id="5afeba0bd099057d2f768c19f06ec2da" category="list-text">Entidades del NMS</block>
-  <block id="3862c7ad20b0923cf8f9b1be9e028f11" category="section-title">Cambiar a la vista avanzada</block>
-  <block id="4fd2f0ed2a27d6ecfe750ed0f462f569" category="paragraph">Abra un sistema StorageGRID y seleccione la opción de vista avanzada.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Pasos</block>
   <block id="f244da7e15f3999df2831b63141e093f" category="list-text">Desde la página *Sistemas*, abra el sistema StorageGRID .</block>
-  <block id="692e1e106333597b5a86044f5e0af539" category="list-text">En la parte superior derecha, seleccione *Cambiar a vista avanzada*.</block>
   <block id="4b233cf02f1889c420108e8345cc0030" category="list-text">Utilice Grid Manager para administrar el sistema StorageGRID .</block>
-  <block id="b7271b5e81c9ac4c11c4746d6b80a538" category="list-text">Si es necesario, seleccione Cambiar a vista estándar para volver a la vista estándar a través de la Consola.</block>
   <block id="e5e3035b0f7e5a2843ab139092d0b6fa" category="section-title">Obtenga ayuda con Grid Manager</block>
   <block id="3778f3873debfe11e2ace6bb6af1e417" category="inline-link">Documentación de StorageGRID</block>
   <block id="e05b3769a3e17ad902ca3ef85360d7f9" category="paragraph">Si necesita ayuda para utilizar Grid Manager, consulte<block ref="a933c7261fbaa2ef6900890d35e68b11" category="inline-link-rx"></block> para obtener instrucciones paso a paso.</block>
@@ -102,11 +90,8 @@
   <block id="c10ae48739661aebcdebc04124762406" category="doc">Agregar sistemas StorageGRID a la NetApp Console</block>
   <block id="5034e08cdc3b4865f67cdf020c27269b" category="paragraph">Administre sus sistemas StorageGrid directamente desde la NetApp Console utilizando Grid Manager.</block>
   <block id="dbbc09735940a2a21109b74dc600b92b" category="inline-link-macro">Obtenga información sobre los roles de acceso a la NetApp Console .</block>
-  <block id="6fd600090915668444ea7d162325adc5" category="paragraph">Administrador de almacenamiento o especialista en salud del sistema.<block ref="df85ea2f8ea618bf5b67be06e51eaa48" category="inline-link-macro-rx"></block></block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Antes de empezar</block>
   <block id="4c6a9048ac276eb9391ebe2abd8e0c0d" category="paragraph">Necesitarás lo siguiente:</block>
-  <block id="d4a6e71a69daabc670296b6e5d940bcf" category="inline-link">Comuníquese con el administrador de su organización.</block>
-  <block id="f989c70e8b10ec6677c8508c4ad6716d" category="list-text">Un agente de NetApp Console que utiliza la versión 3.9.43 o posterior.  Debe tener el rol de administrador de la organización para instalar un agente de consola.  Si no sabe si su organización tiene un agente de consola o si necesita crear uno, comuníquese con su administrador de NetApp Console .<block ref="765570b937b73d16d7ea0af9aecd0128" category="inline-link-rx"></block></block>
   <block id="8ed6fea4723099b9cd21d8f577ab8fb6" category="list-text">El nombre de dominio o la dirección IP del nodo de administración.</block>
   <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">Credenciales de administrador para el nodo de administración.</block>
   <block id="7946381c1469da9982f0ec23675e074e" category="list-text">Un certificado de interfaz de administración instalado en su sistema StorageGRID .</block>
@@ -136,15 +121,12 @@
   <block id="a904ec7788dd2ecae857966472095d9f" category="list-text">Utilice NetApp Backup and Recovery para realizar copias de seguridad de los datos de sus sistemas ONTAP locales en el almacenamiento de objetos en sus sistemas NetApp StorageGRID .</block>
   <block id="fb1b3179d6c46954a36b92cac0736222" category="paragraph">Para comenzar, vaya a la página *Sistemas* y arrastre y suelte un sistema ONTAP local en su sistema StorageGRID .</block>
   <block id="a4304a5e5ad0523cd1e2516efcbb04ea" category="inline-link">Obtenga más información sobre cómo realizar copias de seguridad de datos locales de ONTAP en StorageGRID</block>
-  <block id="9e5b68fb5027979545709db9c86c496d" category="paragraph"><block ref="9e5b68fb5027979545709db9c86c496d" category="inline-link-rx"></block></block>
   <block id="04affab1cdd3516658ad652fcfaf5a44" category="list-text">Utilice NetApp Cloud Tiering para organizar automáticamente en niveles los datos inactivos desde los clústeres ONTAP locales a StorageGRID.</block>
   <block id="a7b3ca6a800aa86763c04f7fff5c0f0c" category="paragraph">Para comenzar, vaya a la página *Sistemas* y arrastre y suelte un sistema ONTAP local en su sistema StorageGRID .</block>
   <block id="39759be047cc5c7c6c37b3a3c14c7616" category="inline-link">Obtenga más información sobre la organización en niveles de datos desde clústeres ONTAP locales a StorageGRID</block>
-  <block id="f2c38058631be40aaf2ca546dedb5828" category="paragraph"><block ref="f2c38058631be40aaf2ca546dedb5828" category="inline-link-rx"></block></block>
   <block id="d84ae9c5fee4a20424a50b491bf9ca94" category="list-text">Utilice NetApp Copy and Sync para sincronizar datos hacia o desde un sistema StorageGRID .</block>
   <block id="d95e5db4ff301d281f0779f0048181e8" category="paragraph">Para comenzar, vaya a la página *Sistemas* y arrastre y suelte el sistema de origen en el sistema de destino.  StorageGRID puede ser el origen o el destino.</block>
   <block id="3759d89c909b76c79aaa28ed2ce4306a" category="inline-link">Obtenga más información sobre NetApp Copy and Sync</block>
-  <block id="cab10d8498bc6058193227ca80c2484e" category="paragraph"><block ref="cab10d8498bc6058193227ca80c2484e" category="inline-link-rx"></block></block>
   <block id="a99fab69b8aa9775fe1767ce605ae8bd" category="summary">NetApp proporciona soporte para la NetApp Console de distintas maneras. Hay amplias opciones de autoayuda gratuitas disponibles las 24 horas, los 7 días de la semana, como artículos de la base de conocimientos (KB) y un foro comunitario. Su registro de soporte incluye soporte técnico remoto mediante tickets web.</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Obtener ayuda</block>
   <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp proporciona soporte para NetApp Console y sus servicios en la nube de diversas maneras. Hay amplias opciones de autoayuda gratuitas disponibles las 24 horas del día, los 7 días de la semana, como artículos de la base de conocimientos (KB) y un foro comunitario. Su registro de soporte incluye soporte técnico remoto mediante tickets web.</block>
@@ -222,7 +204,6 @@
   <block id="1c0cf398fca729802189afd04195daca" category="summary">Dado que los certificados pueden caducar, es posible que ocasionalmente necesites ver el estado o actualizar un certificado.</block>
   <block id="dd0d36f89a15258549e13613858361ef" category="doc">Ver y actualizar certificados de StorageGRID en la NetApp Console</block>
   <block id="5327d9fc450204dcc46442e6725edae3" category="paragraph">Se requiere un certificado de interfaz de administración en su sistema StorageGRID antes de descubrir el sistema desde la NetApp Console.  El certificado proporciona una conexión segura entre la consola y StorageGRID.  Dado que los certificados pueden caducar, es posible que ocasionalmente necesites ver el estado o actualizar un certificado.</block>
-  <block id="c770cc35592d37d6c613acd34268446d" category="paragraph">Administrador de almacenamiento.<block ref="df85ea2f8ea618bf5b67be06e51eaa48" category="inline-link-macro-rx"></block></block>
   <block id="fbd54ca9d42fc0afdb26c5c699c8e55e" category="section-title">Ver el estado de un certificado de interfaz de administración</block>
   <block id="ac2871047714af92edb3022cb27acb51" category="paragraph">Vea el estado del certificado de la interfaz de administración de un sistema StorageGRID para verificar que el certificado aún sea válido.</block>
   <block id="d98db4acfa58dea7d268506b66ad6e71" category="list-text">En la página *Sistemas*, seleccione el sistema StorageGRID .</block>
@@ -230,11 +211,8 @@
   <block id="5c8aefe50da5e68bac8b7fadb69f27cd" category="admonition">El estado del certificado se actualiza una vez cada 24 horas.</block>
   <block id="ed705c097546086b65ee2918f8c18f93" category="section-title">Actualizar el certificado de la interfaz de administración</block>
   <block id="7119ba4526ce61e0874111f9ae6c8000" category="paragraph">Si el estado de su certificado de interfaz de administración no es válido o recibe una notificación de que su certificado ha expirado, deberá actualizarlo para que la NetApp Console pueda conectarse a StorageGRID.</block>
-  <block id="4b4e284cad41e74d772677e47ccbf432" category="list-text">Vaya a su administrador de red local en StorageGRID y siga las instrucciones para<block ref="e4a1425c9a71162659bfbfada9a25737" category="inline-link-rx"></block> .</block>
   <block id="1155fb969d9717092513d154149e1f78" category="list-text">Desde el menú de navegación de la NetApp Console , seleccione *Almacenamiento &gt; Administración*.</block>
-  <block id="40540158a277d365081d54ce377ee023" category="list-text">Seleccione el icono de más opciones (círculo con tres puntos verticales).</block>
   <block id="9769a2363939e90bde7efa3d07411abc" category="inline-image-macro">Una captura de pantalla del menú de actualización.</block>
-  <block id="37ed989771f3eef279909a198294f53c" category="paragraph"><block ref="37ed989771f3eef279909a198294f53c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="de70401c3464a4edf8505f4b7a4258de" category="list-text">Seleccione *Actualizar certificado*.</block>
   <block id="434da4cffed06e08c23765d021db1afc" category="list-text">En la página _Aprobar certificado_, seleccione *Aprobar certificado* para usar el certificado actualizado.</block>
   <block id="49332d7ca8fe54f04384a507c81221de" category="summary">Elimine un sistema StorageGRID si ya no desea administrarlo desde la NetApp Console.</block>
@@ -324,9 +302,7 @@
   <block id="e8d1456416daa95bfb687099cc3fbb58" category="summary">Descubra las novedades en la administración de sistemas StorageGRID en NetApp Console.</block>
   <block id="a39b0065ec636bbdd671213be9d343f4" category="doc">Novedades en la gestión de StorageGRID</block>
   <block id="59adf231110f5ab5dfdc34e98dacaf75" category="paragraph">Conozca las novedades en la administración de sistemas StorageGRID en la NetApp Console.</block>
-  <block id="91d6aafc857e46203357e992ab4434f8" category="section-title">6 de octubre de 2025</block>
   <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">12 de mayo de 2025</block>
-  <block id="43371a1519dc6641cd8852962e536c3e" category="section-title">7 de agosto de 2024</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">18 de septiembre de 2022</block>
   <block id="2a5debfc305ca51b1d9a57049c60e8cb" category="sidebar">Administre sus sistemas StorageGRID desde la NetApp Console usando Grid Manager y use los servicios de datos de NetApp para copias de seguridad, niveles de datos y más.</block>
   <block id="7b63e3ab012c50052cf80c91528ad009" category="sidebar">Administración de StorageGRID mediante la NetApp Console</block>
@@ -349,4 +325,26 @@
   <block id="21bd2ca4d81529bdc81f70cd7c8cda30" category="sidebar">Administrar StorageGRID mediante la vista avanzada</block>
   <block id="ae52ff2fa45ec695a0eb4dddc56142e2" category="sidebar">Eliminar un sistema</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Conocimiento y apoyo</block>
+  <block id="597e4208265714f5fbe715a2ecb5cde8" category="doc">Se necesitan roles de acceso a la NetApp Console</block>
+  <block id="c781879460e95147a58b10c5822cdee1" category="paragraph">Ahora necesita uno de los siguientes roles de acceso para ver, descubrir o administrar StorageGRID en NetApp Console: *Administrador de la organización*, *Administrador de carpeta o proyecto*, *Administrador de almacenamiento* o *Especialista en estado de almacenamiento*.<block ref="fc1e28d913c6a538c5e9638adc8cfee2" category="inline-link-macro-rx"></block></block>
+  <block id="0e6e1e539b578c2b0388d566d8ae4e15" category="inline-link-macro">Obtenga más información sobre los roles de acceso</block>
+  <block id="646004f6286a1c6652c0617f8c295eb1" category="paragraph">Administrador de almacenamiento o especialista en salud del sistema. <block ref="d7b3a182e3f4d537df96f0ab119b3719" category="inline-link-macro-rx"></block>.</block>
+  <block id="d4a8473f83e1246e0b3ab08e2034db7c" category="list-text">Recopilación de registros</block>
+  <block id="eb314977d68b7a27dec7c42f71cc734e" category="list-text">Todos los enlaces a las métricas de Prometheus y los paneles de Grafana</block>
+  <block id="691d3813e42d3c7a96ce16136d8f0585" category="section-title">Cambiar al Administrador de cuadrícula</block>
+  <block id="c7c42727522342992d0d5a7ac5aac3e9" category="paragraph">Abra un sistema StorageGRID y seleccione la opción Administrador de Grid.</block>
+  <block id="1da95130af2b7aa7e5215a16b692f80d" category="list-text">En la parte superior derecha, seleccione *Cambiar a Administrador de cuadrícula*.</block>
+  <block id="7c1357c2af5a3afec56f643266c2d663" category="list-text">Si es necesario, seleccione *Atrás* para regresar a la vista estándar a través de la Consola.</block>
+  <block id="5ed613d5969e54b01e0691f040afb027" category="inline-link-macro">Obtenga más información sobre los roles de acceso a la NetApp Console</block>
+  <block id="b65ed78cf783dfcf7a11227a16dee299" category="paragraph">Administrador de almacenamiento o especialista en salud del sistema. <block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block>.</block>
+  <block id="b8bf9c5f4f01e9e78e739fa6ff26281c" category="inline-link">Comuníquese con el administrador de su organización</block>
+  <block id="4dd7a3812d2662d3ef305d5a6c0d94af" category="list-text">Un agente de NetApp Console que utiliza la versión 3.9.43 o posterior. Debe tener el rol de administrador de la organización para instalar un agente de consola. Si no sabe si su organización tiene un agente de consola o si necesita crear uno, comuníquese con su administrador de NetApp Console .<block ref="bf3f14d32c77964cfe44fa0cda47d96b" category="inline-link-rx"></block> .</block>
+  <block id="d018f459a83db6ae4ef422998ab9f915" category="paragraph"><block ref="d018f459a83db6ae4ef422998ab9f915" category="inline-link-rx"></block></block>
+  <block id="7ca0b225eb61965fb6db2810569aaf51" category="paragraph"><block ref="7ca0b225eb61965fb6db2810569aaf51" category="inline-link-rx"></block></block>
+  <block id="1bac2f8f82de86bfa404d8d3deb90386" category="paragraph"><block ref="1bac2f8f82de86bfa404d8d3deb90386" category="inline-link-rx"></block></block>
+  <block id="3b4f10f05a412a74c29d6cac7ecfd74c" category="paragraph">Administrador de almacenamiento. <block ref="d47ae35a0d63c1eadf9e54d8e5017d63" category="inline-link-macro-rx"></block>.</block>
+  <block id="18fea311c452091646a60f89f3386c23" category="list-text">Vaya a su administrador de red local en StorageGRID y siga las instrucciones para<block ref="5ba9fd123e556ebaf5f5a56be0d2c8b7" category="inline-link-rx"></block> .</block>
+  <block id="3f4224139b9cbf910de436e966798772" category="list-text">Seleccione el icono de más opciones (círculo con tres puntos horizontales).</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">6 de octubre de 2025</block>
+  <block id="d6b2c344cefb2303b488f51358e47bad" category="section-title">7 de agosto de 2024</block>
 </blocks>
